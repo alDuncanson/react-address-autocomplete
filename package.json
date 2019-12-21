@@ -1,6 +1,6 @@
 {
   "name": "@alduncanson/react-address-autocomplete",
-  "version": "0.1.26",
+  "version": "1.0.0",
   "private": false,
   "description": "A simple text input for entering addresses using Google's Places API",
   "main": "./lib/index.js",
