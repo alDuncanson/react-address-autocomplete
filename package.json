@@ -1,0 +1,64 @@
+{
+  "name": "@alduncanson/react-address-autocomplete",
+  "version": "0.1.26",
+  "private": false,
+  "description": "A simple text input for entering addresses using Google's Places API",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "dev": "webpack-dev-server --config ./examples/webpack.config.js",
+    "lint": "eslint src || exit 0",
+    "prettier": "prettier --config .prettierrc --write src/**/**/*.js",
+    "build": "cross-env babel src --out-dir lib",
+    "copy": "cp src/style.css lib/",
+    "prepublish": "npm run clean && npm run build && npm run copy"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alDuncanson/react-address-autocomplete"
+  },
+  "keywords": [
+    "react",
+    "google",
+    "address",
+    "autocomplete"
+  ],
+  "author": "Al Duncanson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alDuncanson/react-address-autocomplete/issues"
+  },
+  "homepage": "https://react-address-autocomplete.netlify.com/",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "prettier": "^1.13.7",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.18.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^3.10.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
