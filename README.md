@@ -1,5 +1,11 @@
 # react-address-autocomplete
 
+![npm](https://img.shields.io/npm/dt/@alduncanson/react-address-autocomplete)
+![license](https://img.shields.io/npm/l/@alduncanson/react-address-autocomplete)
+![min](https://img.shields.io/bundlephobia/min/@alduncanson/react-address-autocomplete)
+
+![stars](https://img.shields.io/github/stars/alDuncanson/react-address-autocomplete?style=social)
+
 A simple text input for entering addresses using Google's Places API. You can try it out [here!](https://react-address-autocomplete.netlify.com/)
 
 # Demo
