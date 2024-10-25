@@ -6,7 +6,7 @@
 
 ![stars](https://img.shields.io/github/stars/alDuncanson/react-address-autocomplete?style=social)
 
-A simple text input for entering addresses using Google's Places API. You can try it out [here!](https://react-address-autocomplete.netlify.com/)
+A simple text input for entering addresses using Google's Places API. You can try it out [here!](https://react-address-autocomplete.netlify.app/)
 
 # Demo
 ![react address autocomplete demo gif](https://raw.githubusercontent.com/alDuncanson/react-address-autocomplete/master/autocomplete.gif)
